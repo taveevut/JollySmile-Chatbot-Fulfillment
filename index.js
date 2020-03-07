@@ -785,7 +785,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                 } else if (nineq_sum >= 7) {
                     agent.add(`คุณมีภาวะซึมเศร้าน้อยมาก`);
                 } else {
-                    agent.add(`ไม่มีภาวะซึมเศร้าหรือมีภาวะซึมเศร้าน้อยมาก`);
+                    agent.add(`คุณไม่มีภาวะซึมเศร้าหรือมีภาวะซึมเศร้าน้อยมาก`);
                 }
 
                 generateQuestionST5(1);
@@ -854,11 +854,11 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                 let st5_ans5 = snapshot.child("st5_ans5").val();
                 let st5_sum = parseInt(arrST5Ans.get(st5_ans1)) + parseInt(arrST5Ans.get(st5_ans2)) + parseInt(arrST5Ans.get(st5_ans3)) + parseInt(arrST5Ans.get(st5_ans4)) + parseInt(arrST5Ans.get(st5_ans5));
                 if (st5_sum >= 10) {
-                    agent.add(`คุณเครียดมากที่สุด`);
+                    agent.add(`คุณมีเครียดมากที่สุด`);
                 } else if (st5_sum >= 8) {
-                    agent.add(`คุณเครียดมาก`);
+                    agent.add(`คุณมีเครียดมาก`);
                 } else if (st5_sum >= 5) {
-                    agent.add(`คุณมีความเครียดเครียดปานกลาง`);
+                    agent.add(`คุณมีความเครียดปานกลาง`);
                 } else {
                     agent.add(`คุณมีความเครียดน้อย`);
                 }
