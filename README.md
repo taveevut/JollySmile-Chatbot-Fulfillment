@@ -3,10 +3,13 @@
 ### Design Intent
 - **Phase1 - Welcom**
 	> - Input Context : 
-	> - Output Context  : (2) awaiting_level
-- **Phase1.1 - howAreYou**
-	> - Input Context : awaiting_level
-	> - Output Context : (2) awaiting_name
+	> - Output Context  : (2)Phase1-Welcom-followup
+    - **Phase1 - Welcom - yes**
+        > - Input Context : (2)Phase1-Welcom-followup
+        > - Output Context : (5)ThankyouIntent-followup 
+    - **Phase1 - Welcom - yes**
+        > - Input Context : (2) Phase1-Welcom-followup
+        > - Output Context : (2) awaiting_name
 - **Phase2 - getName**
 	> - Input Context : awaiting_name
 	> - Output Context : (2)awaiting_heartbeat
