@@ -120,6 +120,15 @@
 ### Bot Designer
 > [Download | LINE Bot Designer](https://developers.line.biz/en/services/bot-designer/)
 
+
+### Investigators and Responsibilities
+- นายซาพีอี  สาเหม๊าะ
+- นายทวีวุฒิ นากอหม๊ะ
+- นายนฤพล จันทร์แป้น
+- นายอาภัสสร์  ปะลาวัน
+- นายวรัญญู บุศนิด
+- นายคณุตม์ ด้วงแก้ว
+
 <br>
 <br>
 
